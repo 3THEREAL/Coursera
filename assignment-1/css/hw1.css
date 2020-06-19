@@ -37,3 +37,29 @@ Box Model -
                 inset
                 outset
                 hidden
+
+        Width - Set in 
+                        Pixels
+                        Thin
+                        Medium
+                        Large
+
+        Color - Name
+                RGB
+                hex
+                transparent
+
+        Specifying Individual Sides -   
+                border-width: 3px; TOP 3PX             
+                border-width: 3px 10px; TOP 3PX (LEFT-RIGHT) 10PX
+                border-width: 3px 10px 20PX; TOP 3PX (LEFT-RIGHT) 10PX BOTTOM 20PX
+                border-width: 3px 10px 20PX 1PX; TOP 3PX RIGHT 10PX BOTTOM 20PX LEFT 1PX;
+
+        Margin is additional space outsude border 
+                Positive(+) margin - element move right/down
+                Negative(-) margin - elemnt move left/up
+        
+        Padding - Padding is additional space between the element and its border
+                Positive Padding - Border moved outward
+        
+        Box-Sizing 
