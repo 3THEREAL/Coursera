@@ -26,4 +26,6 @@ details p{
 }
 footer{
     background: #666666;
-}
+}        body{
+            background-color: red;
+        }

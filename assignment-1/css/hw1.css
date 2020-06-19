@@ -1,0 +1,39 @@
+header{
+    background-color: #B2B2B2;
+}
+
+h1{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h2{
+    color: rgb(62, 28, 218);
+}
+section{
+    background-color: #7F7F7F;
+}
+
+a{
+    color: #000042;
+    background-color: #C5C5C5;
+    display: inline-block;
+}
+
+/*
+Box Model - 
+
+    Inline Element -Height & Width || Default is == COntent
+    Border - Any eloement can have border around it
+        Property - Style, Width & Color 
+        ** Must be Specified
+        Style - none
+                dotted
+                dashed
+                solid
+                double
+                groove
+                ridge
+                inset
+                outset
+                hidden
