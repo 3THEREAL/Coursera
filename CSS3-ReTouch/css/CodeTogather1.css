@@ -83,15 +83,20 @@ footer{
      height: 50px;
      width: 75px;
      background: #00ff00;
+     display:inline-block;
  }
 
 div{
-    height: 100px;
-    width: 45%;
+    height: 200px;
+    width: 30%;
     background: #00ffff;
+    display: inline-block;
+    float: left;
+    overflow: scroll;
 }
 p{
     background: #ff00ff;
     width: 200px;
     height: 100px;
+    display: inline-block;
 }
