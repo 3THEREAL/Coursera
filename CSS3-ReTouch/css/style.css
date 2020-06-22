@@ -1,0 +1,14 @@
+h1 {
+    color: red !important;
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 100px;
+    text-align: justify;
+    text-transform: uppercase;
+}
+h1 {
+    color: blue;
+    background-color: antiquewhite;
+    line-height: 100%;
+}
