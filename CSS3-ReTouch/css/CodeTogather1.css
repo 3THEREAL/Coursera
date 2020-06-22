@@ -90,13 +90,15 @@ div{
     height: 200px;
     width: 30%;
     background: #00ffff;
-    display: inline-block;
-    float: left;
-    overflow: scroll;
+    display: table-cell;
+
 }
 p{
     background: #ff00ff;
     width: 200px;
     height: 100px;
     display: inline-block;
+}
+body{
+    display: table-cell;
 }
