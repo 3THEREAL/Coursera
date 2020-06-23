@@ -43,7 +43,47 @@
                         - hidden    || Hide anything beyond box
                         - scroll    || give horizontal & vertical scrollbars
                         - auto      || Adds scrollbars as needed
-    
+    <br>
+    Box Model - 
+                Border  - Any element can have a border around it
+                        - Border property specifies | Style
+                                                    | Width ->Pixels->thin->medium->large
+                                                    | Color ->Name->RGB->hex->transparent
+                        - The border style MUST be specified
+                Specifying Individual Sides -
+                        border-width: 3px   |   Around
+                        border-width: 3px   10px   |    Top-Bottom  Left-Right   
+                        border-width: 3px   10px    15px    |   Top Left-Right  Bottom
+                        border-width: 3px   10px    15px    20px    |   Top  Right  Bottom  Left
+    <br>
+    Margin - 
+        Additional space OutSide your border between neighbor
+            Positive Margin
+            Negative Margin
+    <br>
+    Padding - 
+        Additional space between the element and its border.
+            Positive Padding
+<br>
+        Centering an Element - 
+                To horinontally center an element - margin: 0 auto;
+                        BUT - display == block
+                                != float 
+                                != fixed/ absolute position
+                                width != auto
+<br>
+        Box-sizing -    content-box     || default additive
+                        border-box      || takes content, padding & boredr into consideration
+<br>
+        Measurement -   Absolute        || Specific size = px, mm, cm, pt
+                        Fluid           || Sets size relative to suttounding elements = %,vw,vh
+                                                                em (for font)
+                                                                rem (for font)
+<br>
+
+
+
+
 
     </h5>
 </body>
