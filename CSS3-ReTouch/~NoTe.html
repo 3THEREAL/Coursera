@@ -80,9 +80,51 @@
                                                                 em (for font)
                                                                 rem (for font)
 <br>
+        Link -  a:hover Must Come After a:link and a:visited 
+                a:active Must Come After a:hover
+
+                Style - a:hover{}
+                        a:focus{}
+                        a:active{}
+<br>
+        Styling List
+                || list-style-type 
+                || list-style-image 
+                || list-style-position 
+                || list-style 
+<br>
+        CSS Selectors - 
+                || Descendant Selector  nav a 
+                || Child Selectors      nav>a
+                || Adjacent Sibling     hl + ol
+<br>
+        id Selectors #
+        class Selector . 
+<br>
+        Narrowing the scope -
+                || p.main -> Paragraphs using main class 
+                || header img.special -> paragraphs inside header that use special class
+<br>
+        Using Operators - Operators can be used to find those attribute values you are looking for 
+                || ^    = match the begining exactly
+                                a[href^='link']
+                || $    = match the end exactly
+                                img[src$ = '.png']
+                || *    = WILDCARD
+                                a[href*='umich']
 
 
+                                border-width: 1px;
+                                border-color: black;
+                                border-style: solid;
 
+                                background: #00ff00 url("imgs/ocean.jpg") no-repeat fixed center;
+                                background-image: url('ocean.jpg')   
+                                background-image: url('images/ocean.jpg')
+                                background-image: url('../images/ocean.jpg')
+                        **Provide text alternatives for images 
+                        **Provide captions and transcripts for video & audio
+                        **
 
 
     </h5>
